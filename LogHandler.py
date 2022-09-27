@@ -22,9 +22,6 @@ class LogHandler:
         obj['origin'] = txt[11]
         obj['user_agent'] = ''.join(txt[13:len(txt) - 1])
         return obj
-
-
-
         
     def read_log_file(self,file_path):
         # MongoDbClient.init_db()
