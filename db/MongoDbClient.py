@@ -16,6 +16,11 @@ class MongoDbClient:
         MongoDbClient.DATABASE[collection].insert_one(data)
         print("Inserted")
 
-MongoDbClient.init_db()
-MongoDbClient.insert_one('log_tb',{'name':'frahan'})
+    @staticmethod
+    def insert_many(collection, data):
+        MongoDbClient.DATABASE[collection].insert_many(data)
+        print("Inserted")
+
+# MongoDbClient.init_db()
+# MongoDbClient.insert_one('log_tb',{'name':'vc'})
 
