@@ -11,6 +11,5 @@ if __name__== '__main__':
 
 
 
-# celery ta ki vabe implement korbo bujteci na
 
 
